@@ -1,0 +1,19 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+boto=2.48.0=py27_0
+bz2file=0.98=py27_0
+gensim=2.3.0=np113py27_0
+mkl=2017.0.3=0
+nltk=3.2.4=py27_0
+numpy=1.13.1=py27_0
+pip=9.0.1=py27_1
+python=2.7.13=1
+requests=2.14.2=py27_0
+scikit-learn=0.19.0=np113py27_0
+scipy=0.19.1=np113py27_0
+setuptools=27.2.0=py27_1
+six=1.10.0=py27_0
+smart_open=1.5.3=py27_0
+vs2008_runtime=9.00.30729.5054=0
+wheel=0.29.0=py27_0
