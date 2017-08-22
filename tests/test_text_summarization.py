@@ -1,5 +1,5 @@
-#import nltk
-#nltk.download()
+# import nltk
+# nltk.download()
 
 from nltk.corpus import gutenberg
 from text_normalization_util import normalize_document
@@ -9,7 +9,9 @@ from keyphrase_extraction_util import retrieve_top_ngrams_collocations, retrieve
 alice = gutenberg.sents(fileids='carroll-alice.txt')
 alice = [' '.join(ts) for ts in alice]
 
-norm_alice = filter(None, normalize_document(alice, lemmatize=False))
+norm_alice = filter(None, normalize_document(alice, lemmatize=True))
+
+# norm_alice = filter(None, normalize_document(alice, lemmatize=False))
 
 # print "\n$ Raw text"
 # print alice[0]
@@ -62,6 +64,6 @@ carry their great weight. African elephants have larger ears
 and concave backs while Asian elephants have smaller ears
 and convex or level backs.
 """
-
-result = retrieve_weighted_tagbased_phrase(corpus=alice, top=50)
-print result
+#
+# result = retrieve_weighted_tagbased_phrase(corpus=toy_text, top=50)
+# print result

@@ -46,7 +46,7 @@ def expand_contractions(text):
 
 
 def pos_tag_text(text):
-    from pattern.en import tag
+    import pattern.en
     from nltk.corpus import wordnet as wn
     
     def penn_to_wn_tags(pos_tag):
@@ -61,7 +61,7 @@ def pos_tag_text(text):
         else:
             return None
     
-    tagged_text = tag(text)
+    tagged_text = pattern.en.tag(text)
     tagged_lower_text = [(word.lower(), penn_to_wn_tags(pos_tag)) for word, pos_tag in tagged_text]
     return tagged_lower_text
 
