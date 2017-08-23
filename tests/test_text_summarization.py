@@ -1,10 +1,10 @@
-# import nltk
-# nltk.download()
-
+"""
+Use this first time to download appropriate NLTK corpus
+    import nltk
+    nltk.download()
+"""
 from nltk.corpus import gutenberg
-from text_normalization_util import normalize_document
-from keyphrase_extraction_util import retrieve_top_ngrams_collocations, retrieve_top_bigrams_collocations, \
-    retrieve_top_trigrams_collocations, retrieve_weighted_tagbased_phrase
+from src.util.text_normalization_util import normalize_document
 
 alice = gutenberg.sents(fileids='carroll-alice.txt')
 alice = [' '.join(ts) for ts in alice]

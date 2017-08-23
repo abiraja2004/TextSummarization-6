@@ -1,9 +1,16 @@
+"""
+Text Normalization - process of cleaning, normalizing , and standardizing textual data (remove special symbols and
+    characters, HTML tags, stop words, correct spelling, stemming, lemmatization.
+"""
+
 import re
-import nltk
 import string
 import unicodedata
 from HTMLParser import HTMLParser
+import nltk
+
 html_parser = HTMLParser()
+stopword_list = nltk.corpus.stopwords.words('english')
 
 
 def extract_sentences(document):
@@ -28,7 +35,7 @@ def unescape_html(text):
 
 
 def expand_contractions(text):
-    from contractions import CONTRACTION_MAP
+    from src.util.contractions import CONTRACTION_MAP
     
     contractions_pattern = re.compile('({})'.format('|'.join(CONTRACTION_MAP.keys())), flags=re.IGNORECASE|re.DOTALL)
 
@@ -91,7 +98,7 @@ def remove_special_characters(text):
 
 
 def remove_stopwords(text):
-    stopword_list = nltk.corpus.stopwords.words('english')
+
 
     tokens = tokenize_text(text)
     filtered_tokens = [token for token in tokens if token not in stopword_list]
@@ -101,6 +108,10 @@ def remove_stopwords(text):
 
 def normalize_document(document, esc_html=True, expand_cont=True, lemmatize=True, tokenize=False,
                        remove_special_char=True, remove_stop_words=True):
+    """
+    Main function of the text normalization util that allows users to specify document that they want to process along
+        with number of action to take, i.e. remove stop words, perform stemming or lemmatization, etc
+    """
     sentences = extract_sentences(document)
 
     normalized_corpus = []  

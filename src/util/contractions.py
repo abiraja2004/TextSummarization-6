@@ -1,3 +1,7 @@
+"""
+List of contractions and how to expand them
+"""
+
 CONTRACTION_MAP = {
     "ain't": "is not",
     "aren't": "are not",

@@ -1,3 +1,9 @@
+"""
+Feature Extraction - extract meaningful features. Also known as vectorization, so that algorithms can work on
+    numerical vectors.
+Feature Matrix - mapping from a collection of documents to features where each row indicates documents and each
+    column indicates a particular feature.
+"""
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 
 

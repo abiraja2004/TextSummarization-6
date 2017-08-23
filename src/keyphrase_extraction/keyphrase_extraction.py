@@ -1,23 +1,43 @@
-# Key phrase extraction, also known as terminology extraction, is defined as the process or technique of extracting key
-# important and relevant terms or phrases from a body of unstructured text such that the core topics or themes of the
-# text document(s) are captured in these key phrases.
-from operator import itemgetter
-import nltk
+"""
+Key phrase extraction, also known as terminology extraction, is defined as the process or technique of extracting key
+    important and relevant terms or phrases from a body of unstructured text such that the core topics or themes of the
+    text document(s) are captured in these key phrases.
+It can be used in semantic web, query-based search engines, recommendation systems, tagging systems, document
+    similarity.
+Generally it can be done via two techniques:
+    1. Collocation
+    2. Weighted tag-based phrase extraction
+
+Collocation
+    Sequence or group of words that tend to occur frequently such that this frequency tends to be moe than what could
+    be terms as a random.
+    1. Start with a corpus of documents.
+    2. Tokenize them to form sentences.
+    3. Flatten the list of sentences to form one large sentence or string.
+    4. Slide a window of size n based on the n-gram range, and compute n-grams across the string.
+    5. Count each n-gram based on its frequency of occurrences.
+    6. Rank n-grams based on their frequency.
+
+Weighted tag-based phrase extraction
+    1. Extract all known phrases chunks using shallow parsing.
+    2. Computer TF-IDF weights for each chunk and then return the top weighted phrases.
+
+"""
 import itertools
-from text_normalization_util import normalize_document
-# Bigrams collocations
-from nltk.collocations import BigramCollocationFinder
-from nltk.collocations import BigramAssocMeasures
-# Trigrams collocations
-from nltk.collocations import TrigramCollocationFinder
-from nltk.collocations import TrigramAssocMeasures
+from operator import itemgetter
+from src.util.text_normalization_util import normalize_document, stopword_list
+import nltk
 # Weighted Tag-Based Phrase Extraction
 from gensim import corpora, models
+from nltk.collocations import BigramAssocMeasures
+# Bigrams collocations
+from nltk.collocations import BigramCollocationFinder
+from nltk.collocations import TrigramAssocMeasures
+# Trigrams collocations
+from nltk.collocations import TrigramCollocationFinder
 
 
-stopword_list = nltk.corpus.stopwords.words('english')
-
-
+# Collocation (START)
 def flatten_corpus(corpus):
     return ' '.join([sentence.strip() for sentence in corpus])
 
@@ -65,7 +85,10 @@ def retrieve_top_trigrams_collocations(corpus, top=5, measure='pmi'):
 
     return top_trigrams
 
+# Collocation (END)
 
+
+# Weighted tag-based phrase extraction (START)
 def extract_grammar_phrases(corpus, phrase_grammar_pattern):
     # build phrase list based on grammar pattern
     all_phrases = []
@@ -109,3 +132,4 @@ def retrieve_weighted_tagbased_phrase(corpus, phrase_grammar_pattern=r'NP: {<DT>
     weighted_phrases = sorted(weighted_phrases.items(), key=itemgetter(1), reverse=True)
 
     return weighted_phrases[:top]
+# Weighted tag-based phrase extraction (END)
