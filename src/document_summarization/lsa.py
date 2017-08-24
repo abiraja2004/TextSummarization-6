@@ -1,3 +1,8 @@
+"""
+Latent Semantic Analysis
+There exists a latent structure among terms, which are related contextually and hence should also be correlated in the
+same singular space.
+"""
 from src.util.feature_extraction_util import build_feature_matrix, low_rank_svd
 from src.util.text_normalization_util import extract_sentences
 import numpy as np

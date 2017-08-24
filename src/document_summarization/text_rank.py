@@ -1,3 +1,14 @@
+"""
+TextRank Algorithm summary:
+    1. Tokenize and extract sentences from the document
+    2. Determine number of sentences that we want in final summary
+    3. Build document term feature matrix using weights like TF-IDF or Bag-of-Words
+    4. Compute a document similarity matrix by multiplying the matrix with its transpose
+    5. Use these documents as the vertices and the similarities between each pair of documents as the weight or score
+       coefficient and feed them to the PageRank algorithm.
+    6. Get the score for each sentence
+    7. Rank the sentences based on the score and return top N sentences
+"""
 from gensim.summarization import summarize
 from src.util.text_normalization_util import extract_sentences, normalize_document
 from src.util.feature_extraction_util import build_feature_matrix
