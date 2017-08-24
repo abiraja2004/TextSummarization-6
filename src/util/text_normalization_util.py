@@ -107,7 +107,7 @@ def remove_stopwords(text):
 
 
 def normalize_document(document, esc_html=True, expand_cont=True, lemmatize=True, tokenize=False,
-                       remove_special_char=True, remove_stop_words=True):
+                       remove_special_char=True, remove_stop_words=True, lower_case=True):
     """
     Main function of the text normalization util that allows users to specify document that they want to process along
         with number of action to take, i.e. remove stop words, perform stemming or lemmatization, etc
@@ -125,7 +125,8 @@ def normalize_document(document, esc_html=True, expand_cont=True, lemmatize=True
         if lemmatize:
             sentence = lemmatize_text(sentence)
         else:
-            sentence = sentence.lower()
+            if lower_case:
+                sentence = sentence.lower()
 
         if remove_special_char:
             sentence = remove_special_characters(sentence)

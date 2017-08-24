@@ -3,8 +3,10 @@
 # platform: win-64
 boto=2.48.0=py27_0
 bz2file=0.98=py27_0
+decorator=4.1.2=py27_0
 gensim=2.3.0=np113py27_0
 mkl=2017.0.3=0
+networkx=1.11=py27_0
 nltk=3.2.4=py27_0
 numpy=1.13.1=py27_0
 pip=9.0.1=py27_1

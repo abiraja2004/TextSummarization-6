@@ -5,6 +5,7 @@ Feature Matrix - mapping from a collection of documents to features where each r
     column indicates a particular feature.
 """
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from scipy.sparse.linalg import svds
 
 
 def build_feature_matrix(documents, feature_type='frequency'):
@@ -26,3 +27,8 @@ def build_feature_matrix(documents, feature_type='frequency'):
     feature_matrix = vectorizer.fit_transform(documents).astype(float)
     
     return vectorizer, feature_matrix
+
+
+def low_rank_svd(matrix, singular_count=2):
+    u, s, vt = svds(matrix, k=singular_count)
+    return u, s, vt
