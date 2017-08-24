@@ -35,7 +35,7 @@ def compute_ngrams(input, ngram_size):
     return zip(*[input[index:] for index in range(ngram_size)])
 
 
-def retrieve_top_ngrams_collocations(corpus, ngram_size=1, top=5):
+def retrieve_top_ngrams_collocations(corpus, ngram_size=2, top=5):
     corpus = flatten_corpus(corpus)
     tokens = nltk.word_tokenize(corpus)
     ngrams = compute_ngrams(tokens, ngram_size)
