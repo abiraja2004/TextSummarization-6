@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v44-2014-04-03.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.4 2014-04-03" file="US20170000002A1-20170105.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20161220" date-publ="20170105">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>20170000002</doc-number>
+<kind>A1</kind>
+<date>20170105</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14755945</doc-number>
+<date>20150630</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>49</main-group>
+<subgroup>02</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>C</subclass>
+<main-group>7</main-group>
+<subgroup>16</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>63</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>49</main-group>
+<subgroup>06</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>C</subclass>
+<main-group>5</main-group>
+<subgroup>06</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>49</main-group>
+<subgroup>027</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>49</main-group>
+<subgroup>06</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>C</subclass>
+<main-group>5</main-group>
+<subgroup>068</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>63</main-group>
+<subgroup>008</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>C</subclass>
+<main-group>5</main-group>
+<subgroup>064</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>C</subclass>
+<main-group>7</main-group>
+<subgroup>163</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170105</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e43">REPLACEABLE WEAR INSERT FOR FURROW OPENING ASSEMBLY</invention-title>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="00" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>CNH Industrial America LLC</orgname>
+<address>
+<city>New Holland</city>
+<state>PA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="00" designation="us-only">
+<addressbook>
+<last-name>Anderson</last-name>
+<first-name>Brian J.</first-name>
+<address>
+<city>Yorkville</city>
+<state>IL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="01" designation="us-only">
+<addressbook>
+<last-name>Hartnetiaux</last-name>
+<first-name>Travis L.</first-name>
+<address>
+<city>Bourbonnais</city>
+<state>IL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="02" designation="us-only">
+<addressbook>
+<last-name>Dienst</last-name>
+<first-name>Johnathon R.</first-name>
+<address>
+<city>DeKalb</city>
+<state>IL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="03" designation="us-only">
+<addressbook>
+<last-name>Prickel</last-name>
+<first-name>Marvin A.</first-name>
+<address>
+<city>Homer Glen</city>
+<state>IL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>CNH Industrial America LLC</orgname>
+<role>02</role>
+<address>
+<city>New Holland</city>
+<state>PA</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+</us-bibliographic-data-application>
+<abstract id="abstract">
+<p id="p-0001" num="0000">An agricultural seed planting implement has a frame moveable in an up and down direction relative to soil over which the frame traverses. A seed trench opening assembly mounted on the frame includes disks mounted side by side and having a forming point positioned in between. A wearable insert of plastic is slidably but non-rotatably retained in the forming point to abut the disks when they are deflected. The disks are removable to enable simple replacement of the wearable insert.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="193.29mm" wi="225.21mm" file="US20170000002A1-20170105-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="224.37mm" wi="189.65mm" orientation="landscape" file="US20170000002A1-20170105-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="241.72mm" wi="192.53mm" orientation="landscape" file="US20170000002A1-20170105-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="259.16mm" wi="186.01mm" file="US20170000002A1-20170105-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="178.82mm" wi="175.18mm" file="US20170000002A1-20170105-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?summary-of-invention description="Summary of Invention" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">1. Field of the Invention</p>
+<p id="p-0003" num="0002">The present invention generally relates to agricultural seed planting implements and to the furrow opening assemblies thereon.</p>
+<p id="p-0004" num="0003">2. Description of the Related Art</p>
+<p id="p-0005" num="0004">Farmers utilize a wide variety of seed planting implements, including seed drills and planters. In a known type of planting implement, seed planting or row units are attached to a toolbar extending transverse to the direction of planting. The toolbar is coupled to a tractor or other work vehicle suitable for pulling the planting implement along a field that is to be seeded to a crop. Each planting unit includes a ground penetrating assembly, often including one or more discs, for opening a seed trench or furrow in the ground as the planting implement is pulled across a field. Components of the ground penetrating assembly shape the bottom and sides of the seed trench, and a seed metering device provides individual seeds at a controlled rate for deposit in the seed trench. Furrow closing components of each row unit close the seed trench in a controlled manner.</p>
+<p id="p-0006" num="0005">One of the first functions in the planting operation is too open and form the seed trench. Typically this is done by utilizing side-by-side disks that are angled to form roughly a V there between and which pierces the soil to begin the trench forming process. A forming point, usually from steel, is mounted between the disks to form and establish the lower boundary of the trench thus formed by the opening disks. In operation, the disks deflect significantly when they are displaced through the soil to open the trench. The disks, in this deflected state, abut one another and can abut the forming point. In time, the wear between the metallic parts makes it necessary to replace the forming point and disks. Such an operation is expensive and complicated since it involves a substantial disassembly of the trench forming apparatus.</p>
+<p id="p-0007" num="0006">What is needed in the art is a simple and effective way to accommodate wear in a trench opening assembly of a seed planter.</p>
+<heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0008" num="0007">The invention seeks to provide a wearable component of the seed trenching apparatus that is easily replaceable.</p>
+<p id="p-0009" num="0008">In one form, the invention is an agricultural seed planting implement including a frame moveable in an up and down direction relative to soil over which the frame traverses. A seed trench opening assembly is mounted to the frame and includes disks positioned side-by-side and mounted on the frame. A forming point is also mounted on the frame and positioned in between the opening disks to define the bottom of the seed trench made by the opening disks. A wearable insert is slidingly mounted on the forming point and extends laterally from the forming point to abut the opening disks as they are deflected towards one another in forming the seed trench. The disks capture the wearable insert in the forming point.</p>
+<p id="p-0010" num="0009">One advantage of the invention is an inexpensive wear component of a seed trench opening apparatus.</p>
+<p id="p-0011" num="0010">Another advantage of the invention is an easily replaceable wear component of a seed trench opening apparatus.</p>
+<?summary-of-invention description="Summary of Invention" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0012" num="0011">The above-mentioned and other features and advantages of this invention, and the manner of attaining them, will become more apparent and the invention will be better understood by reference to the following description of an embodiment of the invention taken in conjunction with the accompanying drawings, wherein:</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective view of a seed planting unit incorporated in a seed planting implement;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 2</figref> is another perspective view of the seed planting unit, showing the unit from an angle different from the angle shown in the perspective view of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 3</figref> is a fragmentary view of the seed planting unit illustrated in <figref idref="DRAWINGS">FIG. 2</figref> taken on lines <b>2</b>-<b>2</b> and showing a forming point;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 4</figref> is a perspective view of the forming point illustrated out of the seed planting unit; and,</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 5</figref> is a perspective view of an alternative embodiment of the forming point illustrated out of the seed planting unit.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?detailed-description description="Detailed Description" end="lead"?>
+<p id="p-0018" num="0017">Corresponding reference characters indicate corresponding parts throughout the several views. The exemplification set out herein illustrates one embodiment of the invention and such exemplification is not to be construed as limiting the scope of the invention in any manner.</p>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE INVENTION</heading>
+<p id="p-0019" num="0018">Referring now to the drawings more specifically and to <figref idref="DRAWINGS">FIG. 1</figref> in particular, a seed planting unit <b>20</b> is shown. Seed planting unit <b>20</b> is part of a seed planting implement having a frame that includes a tow bar assembly, a tow bar and a connection assembly at the longitudinally forward end thereof configured for mating with a corresponding hitch of a tractor or other work vehicle (all of which are not shown) for pulling the seed planting implement through a field. A laterally extending toolbar <b>18</b> (shown in dashed lines in <figref idref="DRAWINGS">FIG. 2</figref>) is generally transverse to the tow bar and thereby generally transverse to the direction <b>28</b> the implement is towed during planting operations. A plurality of seed planting units (or row units) <b>20</b> are connected to toolbar <b>18</b> in a side by side relationship, each of the seed planting units (row units) being substantially identical to the others. In the exemplary embodiment shown, a seed planting implement may include sixteen seed planting units <b>20</b>, only one of which is identified with reference numbers; however, it should be understood that more or fewer seed planting units can be provided on a particular seed planting implement.</p>
+<p id="p-0020" num="0019">Referring now primarily to <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, each seed planting unit <b>20</b> includes a frame <b>22</b> that is connected to toolbar <b>18</b> by upper arms <b>24</b> and lower arms <b>26</b>, each arm <b>24</b>, <b>26</b> being connected to frame <b>22</b> and to toolbar <b>18</b>. Accordingly, each seed planting unit <b>20</b> extends rearward from toolbar <b>18</b> to plant a row of seeds as the seed planting implement is towed across a field in the direction <b>28</b>. The individual planting units <b>20</b> are spaced along toolbar <b>18</b> to provide planted seed rows of a desired spacing. During a planting operation, forward movement of the seed planting implement causes each seed planting unit <b>20</b> to form a seed trench, deposit equally spaced seeds in the seed trench and close the seed trench over the deposited seeds.</p>
+<p id="p-0021" num="0020">Each seed planting unit <b>20</b> includes a ground penetrating or seed trench opening assembly having a pair of forwardly and downwardly angled opening discs <b>32</b> that converge forwardly and downwardly to open a furrow or seed trench as the seed planting implement moves forward. As particularly seen in <figref idref="DRAWINGS">FIG. 2</figref>, the opening disks <b>32</b> are mounted on axes A<b>1</b> and A<b>2</b>, in staggered relation so that their axes are spaced by Dl. Opening disks <b>32</b> are removably retained on frame <b>22</b> by nuts <b>33</b>.</p>
+<p id="p-0022" num="0021">A seed metering system receives seeds from a seed hopper and provides individual seeds at a controlled rate to a seed tube <b>38</b> (shown in dashed lines) for deposit in the bottom of the seed trench formed. The details of the seed metering system are not shown to enable a clearer understanding of the present invention.</p>
+<p id="p-0023" num="0022">A seed trench closing mechanism <b>50</b> (<figref idref="DRAWINGS">FIG. 1</figref>) at the trailing end of each seed planting unit <b>20</b> closes the seed trench after the seeds have been deposited in the seed trench. Seed trench closing mechanism <b>50</b> includes a pair of pinch wheels <b>52</b> (<figref idref="DRAWINGS">FIG. 2</figref>) that operate on opposite sides of the seed trench to move soil back into the seed trench and over the seeds deposited in the bottom of the seed trench. A trailing press wheel (not shown) travels along the top of the closed seed trench and firms the soil replaced in the seed trench.</p>
+<p id="p-0024" num="0023">The depth to which opening discs <b>32</b> are allowed to penetrate the ground is controlled by a depth control assembly <b>60</b> that includes a pair of gauge wheels <b>62</b>, gauge wheel arms <b>64</b> and a depth adjuster and linkage assembly <b>80</b>. One of the gauge wheels <b>62</b> is provided adjacent each opening disc <b>32</b>. Each gauge wheel <b>62</b> is rotatably mounted on one of the gauge wheel arms <b>64</b> by a wheel retention shaft <b>68</b>, which is particularly illustrated in <figref idref="DRAWINGS">FIG. 2</figref> where the near side gauge wheel <b>62</b> has been removed. The gauge wheel arms <b>64</b> are of equal length for production purposes and are pivotally connected at a pivotal attachment <b>66</b> to seed planting unit frame <b>22</b>. Pivoting gauge wheel arm <b>64</b> about pivotal attachment <b>66</b> to frame <b>22</b> changes the relative height position of gauge wheel <b>62</b>.</p>
+<p id="p-0025" num="0024">A forming point assembly <b>100</b> is positioned between opening disks <b>32</b> and defines the contour of the bottom of the trench formed by the seed planting unit <b>20</b>. As shown in <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, the forming point assembly <b>100</b> is positioned between disks <b>32</b>. The disks <b>32</b> deflect during operation and can abut and rub on the forming point assembly, causing wear since the interaction is steel to steel. In accordance with the present invention, a wearable insert is positioned between the forming point assembly <b>100</b> and the disks <b>32</b>, as described below.</p>
+<p id="p-0026" num="0025">Referring specifically to <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, the forming point assembly <b>100</b> has a base <b>102</b> that has an opening <b>104</b> providing a mounting point to frame <b>22</b>. A wall section <b>108</b> is usually formed from sheet metal and has a curved leading edge connected to the downstream side of base <b>102</b> and which gives width to the trench so formed. Base <b>102</b> has a leading edge <b>106</b> which is wedge shape when viewed in the plan view of <figref idref="DRAWINGS">FIG. 3</figref> and circular in shape when viewed from the side.</p>
+<p id="p-0027" num="0026">Base <b>102</b> has a circular opening <b>112</b> with a flat section <b>114</b> interposed in its periphery. A wearable insert <b>116</b> having a cylindrical shape and a flat <b>118</b> fits into opening <b>112</b> and is slidable laterally relative to base <b>102</b>. As shown particularly in <figref idref="DRAWINGS">FIG. 3</figref>, the insert <b>116</b> extends beyond the base <b>102</b> and into abutment with the inside of opposed disks <b>32</b>. Insert <b>116</b> is slidable laterally, but is not rotatable.</p>
+<p id="p-0028" num="0027">In operation of the seeding unit <b>20</b>, the disks <b>32</b> deflect inward as they form the desired trench. Instead of abutting the forming point assembly <b>100</b> the opening disks <b>32</b> abut the wear insert <b>116</b>, which acts as a sacrificial element protecting the remaining components. Because the insert <b>116</b> is movable laterally it balances between the two disks <b>32</b>. When the insert <b>116</b> reaches its wear limit it may be easily removed by disconnecting one or both of the disks <b>32</b> by removing nuts <b>33</b>. At that point, the wear insert <b>116</b> may be simply replaced by pushing it out of the hole <b>112</b> and inserting a new wear insert <b>116</b>. The wear insert can be formed from any wearable plastic material such as UHMW plastic and nylon thus avoiding the replacement of more expensive steel parts in the disks <b>32</b> and forming point assembly <b>100</b>.</p>
+<p id="p-0029" num="0028">While the wear insert <b>116</b> in <figref idref="DRAWINGS">FIGS. 2 and 3</figref> is shown as cylindrical with a flat, it may be in another form as illustrated in <figref idref="DRAWINGS">FIG. 5</figref>. In that figure, the base <b>102</b> has a modified wall section <b>108</b>&#x2032; secured to it. A rectangular opening <b>120</b> is provided in the forward edge of the wall section <b>108</b>&#x2032; and cooperates with the base <b>102</b> to form a rectangular through opening <b>120</b> which receives a rectangular shaped wear insert <b>122</b>. In this case, the wear insert <b>122</b> may slide laterally but does not have the possibility to rotate. The configuration shown in <figref idref="DRAWINGS">FIG. 5</figref> has the same benefits as the wear insert <b>116</b> of <figref idref="DRAWINGS">FIGS. 2 and 3</figref>.</p>
+<p id="p-0030" num="0029">While this invention has been described with respect to at least one embodiment, the present invention can be further modified within the spirit and scope of this disclosure. This application is therefore intended to cover any variations, uses, or adaptations of the invention using its general principles. Further, this application is intended to cover such departures from the present disclosure as come within known or customary practice in the art to which this invention pertains and which fall within the limits of the appended claims.</p>
+<?detailed-description description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text><b>1</b>. An agricultural seed planting implement, comprising:
+<claim-text>a frame moveable in an up and down direction relative to soil area over which the frame traverses;</claim-text>
+<claim-text>a seed trench opening assembly mounted to said frame and including disks positioned in side-by-side relationship;</claim-text>
+<claim-text>a forming point positioned in between said opening disks to define the bottom of the seed trench made by said opening disks; and,</claim-text>
+<claim-text>a wearable insert slidingly mounted on said forming point and extending laterally from said forming point to abut said opening disks as they are deflected toward one another in forming the seed trench, said openings disks retaining said wearable insert in said forming point.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text><b>2</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein at least one of said opening disks is removable for allowing removal of said wearable insert.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text><b>3</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said insert is non-rotatable relative to said forming point.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text><b>4</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein said wearable insert is cylindrical in form and has a flat form thereon, said forming point has a hole corresponding to the cross sectional configuration of said wearable insert.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text><b>5</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said insert is rectangular and the forming point has a rectangular opening for receiving said insert.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text><b>6</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said wearable insert is plastic.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text><b>7</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the axis of said disks are offset relative to one another in the direction over which the seed planting implement traverses.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text><b>8</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising gauge wheels mounted on said frame adjacent said opening disks and adjustable relative to said frame for establishing the depth of the seed trench.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text><b>9</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00008">claim 8</claim-ref>, further comprising a seed tube for receiving seeds to be planted in the trench formed by said seed trench opening assembly and said forming point.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text><b>10</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising closing disks positioned behind said opening disks and gauge wheels for closing the trench thus formed.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text><b>11</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the forming point and has a forward section with a tapered edge relative to the direction of movement over which the seed planting implement traverses.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text><b>12</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein said forming point has a circular shape when viewed from the side.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text><b>13</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00012">claim 12</claim-ref>, in which the forming point has a base and further comprises a curved wall section mounted to the downstream side of the base.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text><b>14</b>. The agricultural seed planting implement of <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein said leading edge of said wall section has a rectangular notch positioned therein at the junction between said leading edge of the wall section and said base forming a through hole with a rectangular cross section, said wearable insert being rectangular in cross section and received in said through hole.</claim-text>
+</claim>
+</claims>
+</us-patent-application>
