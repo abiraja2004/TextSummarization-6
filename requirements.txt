@@ -19,3 +19,4 @@ six=1.10.0=py27_0
 smart_open=1.5.3=py27_0
 vs2008_runtime=9.00.30729.5054=0
 wheel=0.29.0=py27_0
+xlsxwriter=0.9.8=py27_0
