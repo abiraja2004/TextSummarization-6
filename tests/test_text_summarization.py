@@ -13,15 +13,15 @@ African elephants have larger ears and concave backs while Asian elephants have 
 """
 
 summary = get_text_summarization(text=toy_text, method='gensim')
-print "##### Text Summarization via Gensim implementation of TextRank  #####"
+print "===== Text Summarization via Gensim implementation of TextRank  ====="
 print_summary(summary=summary)
 print
 
 summary = get_text_summarization(text=toy_text, method='lsa')
-print "##### Text Summarization via LSA #####"
+print "===== Text Summarization via LSA ====="
 print_summary(summary=summary)
 print
 
 summary = get_text_summarization(text=toy_text, method='text_rank')
-print "##### Text Summarization via TextRank #####"
+print "===== Text Summarization via TextRank ====="
 print_summary(summary=summary)

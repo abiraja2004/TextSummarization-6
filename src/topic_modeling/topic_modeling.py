@@ -22,6 +22,27 @@ def get_topics(corpus, model_type='lsi', total_topics=1):
         raise Exception("Wrong model type entered. Possible values: 'lsi', 'lda', 'nmf'")
 
 
+def topics_map(topic_model, total_topics=2, weight_threshold=0.0001):
+    topic_map = {}
+    if isinstance(topic_model, list):
+        for index in range(total_topics):
+            topic = topic_model[index]
+            topic = [(term, float(wt)) for term, wt in topic]
+            topic = [(word, round(wt, 2)) for word, wt in topic if abs(wt) >= weight_threshold]
+
+            tw = [term for term, wt in topic]
+            topic_map.update({index:tw})
+    else:
+        for index in range(total_topics):
+            topic = topic_model.show_topic(index)
+            topic = [(word, round(wt, 2)) for word, wt in topic if abs(wt) >= weight_threshold]
+
+            tw = [term for term, wt in topic]
+            topic_map.update({index: tw})
+
+    return topic_map
+
+
 # Display the generated topics
 def print_topics(topic_model, total_topics=1, weight_threshold=0.0001, display_weights=False, num_terms=None):
     if isinstance(topic_model, list):

@@ -17,12 +17,12 @@ and convex or level backs.
 """
 
 result = get_keyphrases(corpus=toy_text, method='col', number_of_keyphrases=5)
-print "##### Keyphrases extracted via Collocation method #####"
+print "===== Keyphrases extracted via Collocation method ====="
 print_keyphrases(keyphrases=result)
 
 print
 
 result = get_keyphrases(corpus=toy_text, method='wtp', number_of_keyphrases=5)
-print "##### Keyphrases extracted via Weighted Tag-based Phrase extraction method #####"
+print "===== Keyphrases extracted via Weighted Tag-based Phrase extraction method ====="
 print_keyphrases(keyphrases=result)
 
