@@ -1,4 +1,4 @@
-# Text Summarization
+# Text Summarization #
 
 1.	Use https://bulkdata.uspto.gov/ to download data. For example: https://bulkdata.uspto.gov/data/patent/application/redbook/2017/I20170105.tar 
 2.	Each file (for example https://prod-cicm.uspto.gov/gitlab/ekrinker/TextSummarization/blob/master/data/input/US20170000001A1-20170105.XML) would contain following four sections:
