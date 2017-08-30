@@ -98,8 +98,6 @@ def remove_special_characters(text):
 
 
 def remove_stopwords(text):
-
-
     tokens = tokenize_text(text)
     filtered_tokens = [token for token in tokens if token not in stopword_list]
     filtered_text = ' '.join(filtered_tokens)    
