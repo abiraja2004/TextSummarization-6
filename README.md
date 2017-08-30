@@ -2,7 +2,7 @@
 
 1.	Used https://bulkdata.uspto.gov/ to download some sample data. More specifically: https://bulkdata.uspto.gov/data/patent/application/redbook/2017/I20170105.tar 
 2.	Analyzed downloaded XML (https://prod-cicm.uspto.gov/gitlab/ekrinker/TextSummarization/blob/master/data/input/US20170000001A1-20170105.XML) and noticed that it contained four sections of interest, more specifically
-..*Field of the Invention
+  * Field of the Invention
 ..*Description of the Related Art
 ..*SUMMARY OF THE INVENTION
 ..*DETAILED DESCRIPTION OF THE INVENTION
