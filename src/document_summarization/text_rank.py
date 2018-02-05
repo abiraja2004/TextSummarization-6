@@ -17,7 +17,7 @@ import networkx
 
 def get_text_summarization_gensim(text, summary_ratio=0.4):
     """
-    summary_ratio should be a number between 0 and 1 that determines the percentage of the number of sentences of the
+    summary_ratio should be a number between 0 and Samples that determines the percentage of the number of sentences of the
         original text to be chosen for the summary
     """
     sentences = extract_sentences(text)
